@@ -5,6 +5,8 @@ public class Solution {
     private int denominator;
 
     public Solution() {
+        this.numerator = 0;
+        this.denominator = 1;
     }
 
     /**
@@ -18,9 +20,10 @@ public class Solution {
             this.numerator = numerator;
             this.denominator = denominator;
         } else {
-            return;
+            this.numerator = numerator;
+            // chinh sua
+            this.denominator = 1;
         }
-
     }
 
     public int getNumerator() {
@@ -35,12 +38,23 @@ public class Solution {
         return denominator;
     }
 
+    /**
+     * set.
+     *
+     * @param denominator denominator
+     */
     public void setDenominator(int denominator) {
-        this.denominator = denominator;
+        if (denominator != 0) {
+            this.denominator = denominator;
+        } else {
+            System.out.println("Error!!!");
+            this.denominator = 1;
+        }
     }
 
     /**
-     *  tim uoc chung lon nhat cua hai so nguyen.
+     * tim uoc chung lon nhat cua hai so nguyen.
+     *
      * @param a tu so
      * @param b mau so
      * @return uoc chung lon nhat cua hai so tren
@@ -57,11 +71,13 @@ public class Solution {
     /**
      * rut gon phan so.
      */
-    public void reduce() {
+    public Solution reduce() {
+        Solution s = new Solution();
         int x = this.numerator;
         int y = this.denominator;
-        this.numerator = x / gcd(x, y);
-        this.denominator = y / gcd(x, y);
+        s.numerator = x / gcd(x, y);
+        s.denominator = y / gcd(x, y);
+        return s;
     }
 
     /**
@@ -75,8 +91,7 @@ public class Solution {
         int y = this.denominator;
         this.numerator = x * s2.denominator + y * s2.numerator;
         this.denominator = y * s2.denominator;
-        reduce();
-        return this;
+        return this.reduce();
     }
 
     /**
@@ -90,8 +105,7 @@ public class Solution {
         int y = this.denominator;
         this.numerator = x * s2.denominator - y * s2.numerator;
         this.denominator = y * s2.denominator;
-        reduce();
-        return this;
+        return this.reduce();
     }
 
     /**
@@ -105,8 +119,7 @@ public class Solution {
         int y = this.denominator;
         this.numerator = x * s2.numerator;
         this.denominator = y * s2.denominator;
-        reduce();
-        return this;
+        return this.reduce();
     }
 
     /**
@@ -116,12 +129,16 @@ public class Solution {
      * @return ket qua cong duoc gan vao phan so thu nhat
      */
     public Solution divide(Solution s2) {
-        int x = this.numerator;
-        int y = this.denominator;
-        this.numerator = x * s2.denominator;
-        this.denominator = y * s2.numerator;
-        reduce();
-        return this;
+        if (s2.numerator == 0) {
+            System.out.println("error");
+        } else {
+            int x = this.numerator;
+            int y = this.denominator;
+            this.numerator = x * s2.denominator;
+            this.denominator = y * s2.numerator;
+            //return this;
+        }
+        return this.reduce();
     }
 
 
@@ -135,22 +152,33 @@ public class Solution {
         if (!(obj instanceof Solution)) {
             return false;
         } else {
-            Solution other = (Solution) obj;
-            other.reduce();
-            if (this.numerator == other.numerator && this.denominator == other.denominator) {
+            Solution temp = (Solution) obj;
+            Solution s1 = temp.reduce();
+            Solution s2 = this;
+            s2 = s2.reduce();
+            if (s2.numerator == s1.numerator && s2.denominator == s1.denominator) {
                 return true;
-            } else return false;
+            } else {
+                return false;
+            }
         }
 
     }
 
+    /**
+     * function main.
+     *
+     * @param args args
+     */
     public static void main(String[] args) {
-        Solution s1 = new Solution(5, 10);
+        Solution s1 = new Solution(3, 6);
         s1.reduce();
         System.out.println(s1.numerator + "/" + s1.denominator);
-        Solution s2 = new Solution(2, 3);
-        s1.add(s2);
-        System.out.println(s1.numerator + "/" + s1.denominator);
+        Solution s2 = new Solution(2, 4);
+        //s1.add(s2);
+        //System.out.println(s1.numerator + "/" + s1.denominator);
+        System.out.println(s2.numerator + "/" + s2.denominator);
+        System.out.println(s1.equals(s2));
     }
 
 }
