@@ -89,4 +89,9 @@ public class Student {
         return this.name + " - " + this.id + " - " + this.group + " - " + this.email;
         //return null; // xoa dong nay sau khi cai dat
     }
+
+    public static void main(String[] args) {
+        Student st = new Student();
+        System.out.println(st.getInfo());
+    }
 } 

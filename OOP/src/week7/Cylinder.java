@@ -1,4 +1,4 @@
-//package week7;
+package week7;
 //code by HuyVu
 public class Cylinder extends Circle {
     private double height;

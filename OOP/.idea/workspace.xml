@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb14ab26-57e9-4a91-80d2-b8647b673355" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/oop_th.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week3/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week3/Solution_fib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week3/Solution_prime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week3/solution_gcd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week3/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week4/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week4/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week4/th5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week5/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week5/StudentManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week6/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week6/Staff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week6/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week7/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week7/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh1/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh1/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh1/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh1/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh2/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh2/Layer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh2/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh2/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh2/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_th/src/week8/dahinh2/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2WhJ62QTg3FDWwCpWWM3g109a7s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "C:/Users/FPTSHOP/Desktop/learn/learn_oop/OOP/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb14ab26-57e9-4a91-80d2-b8647b673355" name="Changes" comment="" />
+      <created>1697178702014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697178702014</updated>
+    </task>
+    <servers />
+  </component>
+</project>
