@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb14ab26-57e9-4a91-80d2-b8647b673355" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ktra1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MotorBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ktra1/MotorBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ktra1/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ktra1/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ktra1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week10/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week6/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week6/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week6/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week6/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week6/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week6/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +44,14 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/FPTSHOP/Desktop/learn/learn_oop/OOP/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExpressionTest">
+    <configuration name="ExpressionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExpressionTest" />
+      <module name="OOP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ktra2.Main" />
       <module name="OOP" />
@@ -63,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExpressionTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
