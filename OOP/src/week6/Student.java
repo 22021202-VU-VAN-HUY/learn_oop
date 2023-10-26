@@ -48,7 +48,7 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student[" + "ktra1.Person[" + "name=" + getName() + ",address=" + getAddress() + "]"
+        return "Student[" + "Person[" + "name=" + getName() + ",address=" + getAddress() + "]"
                 + ",program=" + getProgram() + ",year=" + getYear()
                 + ",fee=" + getFee() + "]";
     }

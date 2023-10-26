@@ -6,17 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="fb14ab26-57e9-4a91-80d2-b8647b673355" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ktra1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ktra1/MotorBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MotorBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ktra1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ktra1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/week6/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week6/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/week6/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week6/Staff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/week6/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week6/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week7/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week7/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week7/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week7/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week8/dahinh1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week8/dahinh1/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week8/dahinh2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week8/dahinh2/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week8/dahinh2/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week8/dahinh2/Layer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week8/dahinh2/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week8/dahinh2/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week8/dahinh2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week8/dahinh2/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week8/dahinh2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week8/dahinh2/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

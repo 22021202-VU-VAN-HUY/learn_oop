@@ -1,5 +1,3 @@
-package ktra1;
-
 class Car extends Vehicle {
     private int numberOfDoors;
 

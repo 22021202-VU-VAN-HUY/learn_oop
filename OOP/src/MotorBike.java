@@ -1,8 +1,3 @@
-package ktra1;
-
-import ktra1.Person;
-import ktra1.Vehicle;
-
 public class MotorBike extends Vehicle {
     private boolean hasSidecar;
 

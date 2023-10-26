@@ -1,6 +1,3 @@
-package ktra1;
-
-import ktra1.Person;
 
 public abstract class Vehicle {
     protected String brand;
