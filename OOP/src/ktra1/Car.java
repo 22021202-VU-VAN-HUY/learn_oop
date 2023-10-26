@@ -1,3 +1,5 @@
+package ktra1;
+
 class Car extends Vehicle {
     private int numberOfDoors;
 
@@ -26,7 +28,7 @@ class Car extends Vehicle {
 
     @Override
     public String getInfo() {
-        return "Car:\n"
+        return "ktra1.Car:\n"
                 + "\tBrand: " + super.getBrand() + "\n"
                 + "\tModel: " + super.getModel() + "\n"
                 + "\tRegistration Number: " + super.getRegistrationNumber() + "\n"

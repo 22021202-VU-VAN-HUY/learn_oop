@@ -1,3 +1,5 @@
+package ktra1;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +17,7 @@ public class Person {
     public Person(String name, String address) {
         this.name = name;
         this.address = address;
-        vehicleList = new ArrayList<Vehicle>();
+        this.vehicleList = new ArrayList<Vehicle>();
     }
 
     /**
@@ -32,13 +34,25 @@ public class Person {
      *
      * @param registrationNumber .
      */
+
     public void removeVehicle(String registrationNumber) {
         for (Vehicle temp : vehicleList) {
-            if (temp.getRegistrationNumber().equals((registrationNumber))) {
+            if (temp.getRegistrationNumber().equals(registrationNumber)) {
                 vehicleList.remove(temp);
             }
         }
     }
+
+    /*public void removeVehicle(String registrationNumber) {
+        for (int tmp = 0; tmp < vehicleList.size(); tmp++) {
+            if (vehicleList.get(tmp).getRegistrationNumber() == registrationNumber) {
+                vehicleList.remove(tmp);
+                break;
+            }
+        }
+    }
+
+     */
 
     /**
      * .
@@ -52,7 +66,7 @@ public class Person {
         } else {
             temp = name + " has:\n\n";
             for (Vehicle ve : vehicleList) {
-                temp += getVehiclesInfo();
+                temp += ve.getInfo();
                 temp += "\n";
             }
         }

@@ -1,3 +1,5 @@
+package ktra1;
+
 public class MotorBike extends Vehicle {
     private boolean hasSidecar;
 
@@ -6,23 +8,27 @@ public class MotorBike extends Vehicle {
      *
      * @param brand        .
      * @param model        .
-     * @param registration .
+     * @param registrationNumber .
      * @param owner        .
      * @param hasSidecar   .
      */
-    public MotorBike(String brand, String model, String registration, Person owner,
+    public MotorBike(String brand, String model, String registrationNumber, Person owner,
                      boolean hasSidecar) {
-        super(brand, model, registration, owner);
+        super(brand, model, registrationNumber, owner);
         this.hasSidecar = hasSidecar;
     }
 
+    /**
+     * .
+     * @return .
+     */
     @Override
     public String getInfo() {
         return "Motor Bike:\n"
                 + "\tBrand: " + super.getBrand() + "\n"
                 + "\tModel: " + super.getModel() + "\n"
                 + "\tRegistration Number: " + super.getRegistrationNumber() + "\n"
-                + "\tHas Side Car: " + this.hasSidecar + "\n"
+                + "\tHas Side ktra1.Car: " + this.hasSidecar + "\n"
                 + "\tBelongs to " + super.getOwner().getName() + " - "
                 + super.getOwner().getAddress();
     }

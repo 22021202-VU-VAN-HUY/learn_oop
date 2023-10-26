@@ -1,3 +1,4 @@
+package ktra1;
 
 public abstract class Vehicle {
     protected String brand;
@@ -33,7 +34,7 @@ public abstract class Vehicle {
      * @param newOwer .
      */
     public void transferOwnership(Person newOwer) {
-        setOwner(newOwer);
+        this.setOwner(newOwer);
     }
 
     public String getBrand() {

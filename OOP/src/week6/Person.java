@@ -34,6 +34,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person[" + "name=" + getName() + ",address=" + getAddress() + "]";
+        return "ktra1.Person[" + "name=" + getName() + ",address=" + getAddress() + "]";
     }
 }
