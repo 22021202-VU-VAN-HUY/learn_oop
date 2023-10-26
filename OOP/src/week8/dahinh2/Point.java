@@ -2,7 +2,7 @@ package week8.dahinh2;
 
 import java.util.Objects;
 
-public class Point {
+class Point {
     private double pointX;
     private double pointY;
 
@@ -27,6 +27,12 @@ public class Point {
         this.pointY = pointY;
     }
 
+    /**
+     * distance.
+     *
+     * @param newpoint point
+     * @return double
+     */
     public double distance(Point newpoint) {
         double x = Math.abs(this.pointX - newpoint.pointX);
         double y = Math.abs(this.pointY - newpoint.pointY);
@@ -35,10 +41,15 @@ public class Point {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         Point point = (Point) o;
-        return Double.compare(pointX, point.pointX) == 0 && Double.compare(pointY, point.pointY) == 0;
+        return Double.compare(pointX, point.pointX) == 0
+                && Double.compare(pointY, point.pointY) == 0;
     }
 
     @Override

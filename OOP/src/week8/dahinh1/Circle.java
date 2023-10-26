@@ -50,7 +50,7 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle[radius=" + this.radius + ",color="
+        return "ktra2.Circle[radius=" + this.radius + ",color="
                 + super.getColor() + ",filled="
                 + super.isFilled() + "]";
     }

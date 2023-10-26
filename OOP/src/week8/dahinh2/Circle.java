@@ -1,6 +1,9 @@
 package week8.dahinh2;
 
+import java.util.Objects;
+
 public class Circle extends Shape {
+    protected Point center;
     protected double radius;
 
     /**
@@ -30,6 +33,28 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
+    /**
+     * constructor 4.
+     *
+     * @param center center of circle
+     * @param radius radius of circle
+     * @param color  color of circle
+     * @param filled filled of circle
+     */
+    public Circle(Point center, double radius, String color, boolean filled) {
+        super(color, filled);
+        this.center = center;
+        this.radius = radius;
+    }
+
+    public Point getCenter() {
+        return center;
+    }
+
+    public void setCenter(Point center) {
+        this.center = center;
+    }
+
     public double getRadius() {
         return radius;
     }
@@ -50,8 +75,27 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle[radius=" + this.radius + ",color="
-                + super.getColor() + ",filled="
-                + super.isFilled() + "]";
+        return "ktra2.Circle[center=(" + center.getPointX() + "," + center.getPointY()
+                + "),radius=" + this.radius
+                + ",color=" + super.getColor()
+                + ",filled=" + super.isFilled() + "]";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Circle circle = (Circle) o;
+        return Double.compare(radius, circle.radius) == 0
+                && Objects.equals(center, circle.center);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(center, radius);
     }
 }

@@ -74,7 +74,7 @@ public class Cylinder extends Circle {
      */
     @Override
     public String toString() {
-        return "Cylinder[Circle[radius=" + getRadius() + ",color="
+        return "Cylinder[ktra2.Circle[radius=" + getRadius() + ",color="
                 + getColor() + "],height=" + getHeight() + "]";
     }
 }

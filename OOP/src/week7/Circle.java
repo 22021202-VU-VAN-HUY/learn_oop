@@ -54,6 +54,6 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle[radius=" + getRadius() + ",color=" + getColor() + "]";
+        return "ktra2.Circle[radius=" + getRadius() + ",color=" + getColor() + "]";
     }
 }
