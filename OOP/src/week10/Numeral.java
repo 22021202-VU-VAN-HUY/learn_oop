@@ -1,3 +1,7 @@
+package week10;
+
+import week10.Expression;
+
 public class Numeral extends Expression {
     private double value;
 

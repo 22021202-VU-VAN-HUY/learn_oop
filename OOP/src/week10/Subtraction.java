@@ -1,11 +1,13 @@
-public class Multiplication extends BinaryExpression {
+package week10;
+
+public class Subtraction extends BinaryExpression {
     /**
      * .
      *
      * @param left  .
      * @param right .
      */
-    public Multiplication(Expression left, Expression right) {
+    public Subtraction(Expression left, Expression right) {
         super(left, right);
     }
 
@@ -16,7 +18,7 @@ public class Multiplication extends BinaryExpression {
      */
     @Override
     public String toString() {
-        return "(" + left.toString() + " * " + right.toString() + ")";
+        return "(" + left.toString() + " - " + right.toString() + ")";
     }
 
     /**
@@ -26,6 +28,6 @@ public class Multiplication extends BinaryExpression {
      */
     @Override
     public double evaluate() {
-        return left.evaluate() * right.evaluate();
+        return left.evaluate() - right.evaluate();
     }
 }

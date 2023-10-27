@@ -52,7 +52,7 @@ public class Square extends Rectangle {
      * @return s.
      */
     public String toString() {
-        return "Square[side=" + super.length
+        return "week10.Square[side=" + super.length
                 + ",color=" + super.color
                 + ",filled=" + super.filled + "]";
     }

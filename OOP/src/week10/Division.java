@@ -1,3 +1,5 @@
+package week10;
+
 public class Division extends BinaryExpression {
     /**
      * .
@@ -27,8 +29,9 @@ public class Division extends BinaryExpression {
     @Override
     public double evaluate() {
         if (right.evaluate() == 0) {
-            throw new ArithmeticException("error by divide 0");
+            throw new ArithmeticException("Lỗi chia cho 0");
         }
+
         return left.evaluate() / right.evaluate();
     }
 }

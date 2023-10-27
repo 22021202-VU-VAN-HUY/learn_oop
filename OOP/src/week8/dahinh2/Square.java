@@ -81,7 +81,7 @@ public class Square extends Rectangle {
      * @return s.
      */
     public String toString() {
-        return "Square[topLeft=(" + super.topLeft.getPointX() + "," + super.topLeft.getPointY()
+        return "week10.Square[topLeft=(" + super.topLeft.getPointX() + "," + super.topLeft.getPointY()
                 + "),side=" + super.length + ",color=" + super.color
                 + ",filled=" + super.filled + "]";
     }

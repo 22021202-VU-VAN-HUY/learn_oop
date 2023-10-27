@@ -1,3 +1,7 @@
+package week10;
+
+import week10.Expression;
+
 public class Square extends Expression {
     private Expression expression;
 
