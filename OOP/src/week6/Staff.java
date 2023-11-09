@@ -36,7 +36,7 @@ public class Staff extends Person {
 
     @Override
     public String toString() {
-        return "Staff[" + "ktra1.Person[" + "name=" + getName() + ",address=" + getAddress() + "]"
+        return "Staff[" + "ktra1.week11.Person[" + "name=" + getName() + ",address=" + getAddress() + "]"
                 + ",school=" + getSchool() + ",pay=" + getPay() + "]";
     }
 }
